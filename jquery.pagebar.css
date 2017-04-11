@@ -1,0 +1,132 @@
+﻿
+/*
+  页码按钮
+*/
+.pageCode {
+    background: #D6182E;
+    padding: 8px 15px;
+    border: 1px solid #C4162A;
+    color: white;
+    font-size:14px;
+}
+
+/*
+   鼠标悬停于页码按钮上时
+*/
+.pageCodeMouseOver {
+    background: #C60DBA;
+    padding: 8px 15px;
+    border: 1px solid #B40CA9;
+    color: white;
+    font-size:14px;
+}
+
+/*
+  页码按钮间距
+*/
+.pageCodeMargin {
+    margin-left: 4px;
+}
+
+
+/*
+  “上翻”按钮
+*/
+.up {
+    background: #E53F53;
+    padding: 8px 15px;
+    margin-right: 6px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+}
+
+/*
+   鼠标悬停于“上翻”按钮时
+*/
+.upMouseOver {
+    background: #D6182E;
+    padding: 8px 15px;
+    margin-right: 6px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+}
+
+/*
+  “下翻”按钮
+*/
+.down {
+    background: #E53F53;
+    padding: 8px 15px;
+    margin-left: 6px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+}
+
+/*
+  鼠标悬停于"下翻"按钮时
+*/
+.downMouseOver {
+    background: #D6182E;
+    padding: 8px 15px;
+    margin-left: 6px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+}
+
+/*
+    总页数区
+*/
+.totalPage {
+    padding: 8px 15px;
+    font-size:14px;
+}
+
+/*
+    跳转区文本
+*/
+.jumpText{
+    padding: 8px 0px;
+    font-size:14px;
+}
+
+
+
+/*
+    跳转页输入框
+*/
+.jumpInputBox{
+    width:20px;
+    height:20px;
+    padding:4px;
+    margin:0 4px;
+    border:1px solid #CC1C30;
+    text-align:center;
+}
+
+/*
+    跳转按钮
+*/
+.jumpButton{
+    background: #E53F53;
+    padding: 8px 15px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+    margin-left:6px;
+}
+
+/*
+    鼠标悬停于跳转按钮上时
+*/
+.jumpButtonMouseOver{
+    background: #D6182E;
+    padding: 8px 15px;
+    margin-left: 6px;
+    border: 1px solid #CC1C30;
+    color: white;
+    font-size:14px;
+}

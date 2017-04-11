@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-1.12.1.min.js" type="text/javascript"></script>
+    <link href="jquery.pagebar.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.pagebar.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $("#pagebar").pagebar({
+                // 点击“上翻”后的操作
+                up: function (selectedPage) {
+                    alert("up:" + selectedPage);
+                },
+                // 点击“下翻”后的操作
+                down: function (selectedPage) {
+                    alert("down:" + selectedPage);
+                },
+                // 点击页码选择后的操作
+                select: function (selectedPage) {
+                    alert("select:" + selectedPage);
+                },
+                // 跳转后的操作
+                jump: function (jumpPage) {
+                    alert(jumpPage);
+                },
+                dataCount: 304, // 数据总数量
+                pageCapacity: 10, // 每页显示的数据数量
+                pageCodeCount: 10 // 显示的页码数量
+            });
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div id="pagebar">
+    </div>
+</body>
+</html>
